@@ -4,7 +4,7 @@
 
 <h1 align="center">VLX-VR</h1>
 
-<h3 align="center">面向 Agentic 的视频推理：Think–Memory–Observation</h3>
+<h3 align="center">面向 Agentic 的视频推理模型</h3>
 
 <p align="center">
   <a href="README.md">English</a> | 中文

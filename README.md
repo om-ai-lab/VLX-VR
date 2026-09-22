@@ -4,7 +4,7 @@
 
 <h1 align="center">VLX-VR</h1>
 
-<h3 align="center">Agentic-Aware Video Reasoning: Think–Memory–Observation</h3>
+<h3 align="center">An Agentic-Aware Video Reasoning Model</h3>
 
 <p align="center">
   English | <a href="README_zh.md">中文</a>
