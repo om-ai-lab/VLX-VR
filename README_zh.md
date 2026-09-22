@@ -80,7 +80,7 @@
 ## 更新
 
 - **[2026-09-22]** 🔥 新增三则案例演示（[assets/demos/](assets/demos/)）。
-- **[2026-09-20]** 🔥🔥🔥 GitHub 上架包草稿完成：README（中/英）、介绍素材与 MINERVA 结果 notebook。
+- **[2026-09-20]** 🔥🔥🔥 GitHub 上架包发布：README（中/英）、介绍素材与 MINERVA 结果 notebook。
 - **[2026-09]** 论文发布：[VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985)（`arXiv:2609.09985`）。
 - **[2026-09]** 介绍视频上线：[在 YouTube 观看](https://www.youtube.com/watch?v=paqyRLzPcbw)。
 
@@ -287,7 +287,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 | 论文 | 已发布（[arXiv:2609.09985](https://arxiv.org/abs/2609.09985)） |
 | 介绍视频 | 已发布（[YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)） |
 | 案例演示 | 已发布（[assets/demos/](assets/demos/)） |
-| README + notebook 包 | 本仓库草稿 |
+| README + notebook 包 | 本仓库 |
 
 ## 为什么是 VLX-VR
 
