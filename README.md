@@ -79,7 +79,7 @@ For technical support, partnerships, and community inquiries, contact us at **[m
 
 ## Updates
 
-- **[2026-09-22]** 🔥 Added three qualitative demo cases comparing **VLX-VR vs Gemini 3.1 Pro** ([assets/demos/](assets/demos/)).
+- **[2026-09-22]** 🔥 Added three case demos ([assets/demos/](assets/demos/)).
 - **[2026-09-20]** 🔥🔥🔥 GitHub package drafted: README (EN/ZH), overview assets, and a MINERVA result notebook.
 - **[2026-09]** Paper released: [VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985) (`arXiv:2609.09985`).
 - **[2026-09]** Overview video published: [Watch on YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw).
@@ -229,7 +229,7 @@ On correctly answered samples, **96.20%** of VLX-VR reasoning traces are consist
 
 samples satisfy both answer correctness and this evidence-grounded trace criterion. This joint rate is still higher than Seed2.1 Pro's answer-only accuracy (70.70%), though the criteria differ.
 
-## Qualitative Cases: VLX-VR vs Gemini 3.1 Pro
+## Case Demos
 
 Three real side-by-side comparisons of **VLX-VR** and **Gemini 3.1 Pro** on the same user prompts and public web footage, focusing on how each model grounds evidence, timestamps, and final answers.
 
@@ -286,7 +286,7 @@ See [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overvie
 | --- | --- |
 | Paper | Released ([arXiv:2609.09985](https://arxiv.org/abs/2609.09985)) |
 | Overview video | Released ([YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)) |
-| Qualitative demos (vs Gemini 3.1 Pro) | Released ([assets/demos/](assets/demos/)) |
+| Case demos | Released ([assets/demos/](assets/demos/)) |
 | README + notebook package | This repository draft |
 
 ## Why VLX-VR

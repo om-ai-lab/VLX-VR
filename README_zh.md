@@ -79,7 +79,7 @@
 
 ## 更新
 
-- **[2026-09-22]** 🔥 新增三则定性演示：**VLX-VR vs Gemini 3.1 Pro**（[assets/demos/](assets/demos/)）。
+- **[2026-09-22]** 🔥 新增三则案例演示（[assets/demos/](assets/demos/)）。
 - **[2026-09-20]** 🔥🔥🔥 GitHub 上架包草稿完成：README（中/英）、介绍素材与 MINERVA 结果 notebook。
 - **[2026-09]** 论文发布：[VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985)（`arXiv:2609.09985`）。
 - **[2026-09]** 介绍视频上线：[在 YouTube 观看](https://www.youtube.com/watch?v=paqyRLzPcbw)。
@@ -229,7 +229,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 
 样本同时满足答对与证据一致。该联合口径仍高于 Seed2.1 Pro 的仅答案准确率（70.70%），但两者成功标准并不相同。
 
-## 定性案例：VLX-VR vs Gemini 3.1 Pro
+## 案例演示
 
 以下三则是 **VLX-VR** 与 **Gemini 3.1 Pro** 的真实对比情况：同一用户提示、同一公共网络素材，并排看两边如何落地证据、时间戳与最终答案。
 
@@ -286,7 +286,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 | --- | --- |
 | 论文 | 已发布（[arXiv:2609.09985](https://arxiv.org/abs/2609.09985)） |
 | 介绍视频 | 已发布（[YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)） |
-| 定性演示（vs Gemini 3.1 Pro） | 已发布（[assets/demos/](assets/demos/)） |
+| 案例演示 | 已发布（[assets/demos/](assets/demos/)） |
 | README + notebook 包 | 本仓库草稿 |
 
 ## 为什么是 VLX-VR
