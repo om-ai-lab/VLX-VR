@@ -302,11 +302,11 @@ Our team has spent years building multimodal perception and reasoning systems, w
 ## Citation
 
 ```bibtex
-@article{vlxvr2026,
-  title   = {VLX-VR: An Agentic-Aware Video Reasoning Model},
-  author  = {{Om AI Lab}},
-  journal = {arXiv preprint arXiv:2609.09985},
-  year    = {2026}
+@article{li2026vlx,
+  title={VLX-VR: An Agentic-Aware Video Reasoning Model},
+  author={Li, Sheng and Liu, Peng and Zhang, Qianqian and Zhao, Tiancheng},
+  journal={arXiv preprint arXiv:2609.09985},
+  year={2026}
 }
 ```
 

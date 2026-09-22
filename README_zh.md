@@ -302,11 +302,11 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 ## 引用
 
 ```bibtex
-@article{vlxvr2026,
-  title   = {VLX-VR: An Agentic-Aware Video Reasoning Model},
-  author  = {{Om AI Lab}},
-  journal = {arXiv preprint arXiv:2609.09985},
-  year    = {2026}
+@article{li2026vlx,
+  title={VLX-VR: An Agentic-Aware Video Reasoning Model},
+  author={Li, Sheng and Liu, Peng and Zhang, Qianqian and Zhao, Tiancheng},
+  journal={arXiv preprint arXiv:2609.09985},
+  year={2026}
 }
 ```
 
