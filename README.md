@@ -312,4 +312,4 @@ Our team has spent years building multimodal perception and reasoning systems, w
 
 ## License
 
-See the repository license file for terms covering code and model weights.
+This project is released under the [Apache License 2.0](LICENSE). See the license file for terms covering code and model weights.
