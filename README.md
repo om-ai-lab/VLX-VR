@@ -240,7 +240,7 @@ Three real side-by-side comparisons of **VLX-VR** and **Gemini 3.1 Pro** on the 
       </a>
       <br>
       <b>Case 1 · Counterfactual score</b><br>
-      <sub>Hockey: if the green player had scored at 02:22, what would the score be?</sub><br>
+      <sub>If the player in green had made his shot on the goal at 02:22 in the video, what would the score have been? (0) 1-0. (1) 2-0. (2) 3-0. (3) 2-1. (4) 2-2.</sub><br>
       <a href="assets/demos/case1-hockey-score.mp4">▶️ Watch MP4</a>
     </td>
     <td width="33%" align="center" valign="top">

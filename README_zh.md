@@ -240,7 +240,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
       </a>
       <br>
       <b>案例 1 · 反事实比分</b><br>
-      <sub>冰球：若绿衣球员在 02:22 打进，比分会是多少？</sub><br>
+      <sub>If the player in green had made his shot on the goal at 02:22 in the video, what would the score have been? (0) 1-0. (1) 2-0. (2) 3-0. (3) 2-1. (4) 2-2.</sub><br>
       <a href="assets/demos/case1-hockey-score.mp4">▶️ 观看 MP4</a>
     </td>
     <td width="33%" align="center" valign="top">
