@@ -231,7 +231,7 @@ samples satisfy both answer correctness and this evidence-grounded trace criteri
 
 ## Qualitative Cases: VLX-VR vs Gemini 3.1 Pro
 
-Beyond the MINERVA table above (where Gemini 3.1 Pro scores **63.50%** vs VLX-VR **78.79%**), we include three short side-by-side demos. Each clip walks through the same user prompt on public web footage and contrasts how **VLX-VR** and **Gemini 3.1 Pro** ground evidence, timestamps, and final answers.
+Three real side-by-side comparisons of **VLX-VR** and **Gemini 3.1 Pro** on the same user prompts and public web footage, focusing on how each model grounds evidence, timestamps, and final answers.
 
 <table>
   <tr>
