@@ -79,6 +79,7 @@
 
 ## 更新
 
+- **[2026-09-22]** 🔥 新增三则定性演示：**VLX-VR vs Gemini 3.1 Pro**（[assets/demos/](assets/demos/)）。
 - **[2026-09-20]** 🔥🔥🔥 GitHub 上架包草稿完成：README（中/英）、介绍素材与 MINERVA 结果 notebook。
 - **[2026-09]** 论文发布：[VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985)（`arXiv:2609.09985`）。
 - **[2026-09]** 介绍视频上线：[在 YouTube 观看](https://www.youtube.com/watch?v=paqyRLzPcbw)。
@@ -228,6 +229,53 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 
 样本同时满足答对与证据一致。该联合口径仍高于 Seed2.1 Pro 的仅答案准确率（70.70%），但两者成功标准并不相同。
 
+## 定性案例：VLX-VR vs Gemini 3.1 Pro
+
+在上表（Gemini 3.1 Pro **63.50%** vs VLX-VR **78.79%**）之外，我们补充三则短对比演示。每个片段对同一用户提示、同一公共网络素材，并排展示 **VLX-VR** 与 **Gemini 3.1 Pro** 在证据落地、时间戳与最终答案上的差异。
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case1-hockey-score.mp4">
+        <img src="assets/demos/case1-hockey-score.jpg" alt="案例 1：冰球反事实比分" width="100%">
+      </a>
+      <br>
+      <b>案例 1 · 反事实比分</b><br>
+      <sub>冰球：若绿衣球员在 02:22 打进，比分会是多少？</sub><br>
+      <a href="assets/demos/case1-hockey-score.mp4">▶️ 观看 MP4</a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case2-chess-check-turns.mp4">
+        <img src="assets/demos/case2-chess-check-turns.jpg" alt="案例 2：象棋时间计数" width="100%">
+      </a>
+      <br>
+      <b>案例 2 · 时间计数</b><br>
+      <sub>象棋：白方首次被将军到终局之间走了几手？</sub><br>
+      <a href="assets/demos/case2-chess-check-turns.mp4">▶️ 观看 MP4</a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case3-basketball-anomaly.mp4">
+        <img src="assets/demos/case3-basketball-anomaly.jpg" alt="案例 3：球场异常与时间点" width="100%">
+      </a>
+      <br>
+      <b>案例 3 · 异常 + 时间点</b><br>
+      <sub>场馆：找出篮球场上反常操作，并按秒列出时间点。</sub><br>
+      <a href="assets/demos/case3-basketball-anomaly.mp4">▶️ 观看 MP4</a>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>每则案例看点</b></summary>
+
+- **案例 1（冰球 / 反事实）：** 两边都可能选对选项，但 VLX-VR 保留证据链（记分牌 OCR → 队服与队名绑定 → 02:22 射门 → 假设进球后 2-1）。Gemini 3.1 Pro 常压成一句正确结论，不写清队名/队服如何确认。
+- **案例 2（象棋 / 时间推理）：** VLX-VR 对齐时间戳点明白方被将军后的两手（约 215.7s 首将军 → 223.6s / 228.1s 白方两手 → 229.7s 将杀）。漏一手就会把选择题从 2 改成 1；Gemini 3.1 Pro 易漏中间一手。
+- **案例 3（篮球场 / 异常检测）：** 难在按人、按秒列出「篮球场踢足球进筐」这类跨界操作，而不是编一个全局故事（如「整片倒放」）。VLX-VR 给出可核对区间；Gemini 3.1 Pro 可能过度承诺错误总假设。
+
+</details>
+
+文件位于 [`assets/demos/`](assets/demos/)。测试视频来自公共网络素材。
+
 ## Notebook
 
 见 [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overview.ipynb) — **Coming soon**。
@@ -238,6 +286,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 | --- | --- |
 | 论文 | 已发布（[arXiv:2609.09985](https://arxiv.org/abs/2609.09985)） |
 | 介绍视频 | 已发布（[YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)） |
+| 定性演示（vs Gemini 3.1 Pro） | 已发布（[assets/demos/](assets/demos/)） |
 | README + notebook 包 | 本仓库草稿 |
 
 ## 为什么是 VLX-VR

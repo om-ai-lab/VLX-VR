@@ -79,6 +79,7 @@ For technical support, partnerships, and community inquiries, contact us at **[m
 
 ## Updates
 
+- **[2026-09-22]** 🔥 Added three qualitative demo cases comparing **VLX-VR vs Gemini 3.1 Pro** ([assets/demos/](assets/demos/)).
 - **[2026-09-20]** 🔥🔥🔥 GitHub package drafted: README (EN/ZH), overview assets, and a MINERVA result notebook.
 - **[2026-09]** Paper released: [VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985) (`arXiv:2609.09985`).
 - **[2026-09]** Overview video published: [Watch on YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw).
@@ -228,6 +229,53 @@ On correctly answered samples, **96.20%** of VLX-VR reasoning traces are consist
 
 samples satisfy both answer correctness and this evidence-grounded trace criterion. This joint rate is still higher than Seed2.1 Pro's answer-only accuracy (70.70%), though the criteria differ.
 
+## Qualitative Cases: VLX-VR vs Gemini 3.1 Pro
+
+Beyond the MINERVA table above (where Gemini 3.1 Pro scores **63.50%** vs VLX-VR **78.79%**), we include three short side-by-side demos. Each clip walks through the same user prompt on public web footage and contrasts how **VLX-VR** and **Gemini 3.1 Pro** ground evidence, timestamps, and final answers.
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case1-hockey-score.mp4">
+        <img src="assets/demos/case1-hockey-score.jpg" alt="Case 1: hockey counterfactual score" width="100%">
+      </a>
+      <br>
+      <b>Case 1 · Counterfactual score</b><br>
+      <sub>Hockey: if the green player had scored at 02:22, what would the score be?</sub><br>
+      <a href="assets/demos/case1-hockey-score.mp4">▶️ Watch MP4</a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case2-chess-check-turns.mp4">
+        <img src="assets/demos/case2-chess-check-turns.jpg" alt="Case 2: chess temporal counting" width="100%">
+      </a>
+      <br>
+      <b>Case 2 · Temporal counting</b><br>
+      <sub>Chess: how many white turns between the first check and the end of the game?</sub><br>
+      <a href="assets/demos/case2-chess-check-turns.mp4">▶️ Watch MP4</a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="assets/demos/case3-basketball-anomaly.mp4">
+        <img src="assets/demos/case3-basketball-anomaly.jpg" alt="Case 3: basketball anomaly timestamps" width="100%">
+      </a>
+      <br>
+      <b>Case 3 · Anomaly + timestamps</b><br>
+      <sub>Gym: find out-of-place actions on a basketball court and list second-level timestamps.</sub><br>
+      <a href="assets/demos/case3-basketball-anomaly.mp4">▶️ Watch MP4</a>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>What each case highlights</b></summary>
+
+- **Case 1 (hockey / counterfactual):** both models can reach the correct option, but VLX-VR keeps an evidence trail (scoreboard OCR → jersey–team binding → shot at 02:22 → hypothetical 2-1). Gemini 3.1 Pro often collapses this into a short correct sentence without showing how team names and colors were verified.
+- **Case 2 (chess / temporal):** VLX-VR counts white’s two post-check moves with aligned timestamps (~215.7s first check → ~223.6s / ~228.1s white turns → ~229.7s mate). Missing a single intervening move flips the MCQ answer; Gemini 3.1 Pro is prone to drop one turn.
+- **Case 3 (basketball court / anomaly):** the hard part is listing soccer-like actions *on a basketball court* person-by-person with second-level times, not inventing a global story (e.g. “video played in reverse”). VLX-VR reports grounded intervals; Gemini 3.1 Pro may over-commit to a false global hypothesis.
+
+</details>
+
+Files live under [`assets/demos/`](assets/demos/). Test clips are public-web footage.
+
 ## Notebook
 
 See [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overview.ipynb) — **Coming soon**.
@@ -238,6 +286,7 @@ See [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overvie
 | --- | --- |
 | Paper | Released ([arXiv:2609.09985](https://arxiv.org/abs/2609.09985)) |
 | Overview video | Released ([YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)) |
+| Qualitative demos (vs Gemini 3.1 Pro) | Released ([assets/demos/](assets/demos/)) |
 | README + notebook package | This repository draft |
 
 ## Why VLX-VR
