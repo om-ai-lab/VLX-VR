@@ -249,7 +249,7 @@ Three real side-by-side comparisons of **VLX-VR** and **Gemini 3.1 Pro** on the 
       </a>
       <br>
       <b>Case 2 · Temporal counting</b><br>
-      <sub>Chess: how many white turns between the first check and the end of the game?</sub><br>
+      <sub>How many turns does white play between the first time they are put in check and the end of the game? (0) 4. (1) 2. (2) 0. (3) 3. (4) 1.</sub><br>
       <a href="assets/demos/case2-chess-check-turns.mp4">▶️ Watch MP4</a>
     </td>
     <td width="33%" align="center" valign="top">

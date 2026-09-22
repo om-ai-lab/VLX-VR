@@ -249,7 +249,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
       </a>
       <br>
       <b>案例 2 · 时间计数</b><br>
-      <sub>象棋：白方首次被将军到终局之间走了几手？</sub><br>
+      <sub>How many turns does white play between the first time they are put in check and the end of the game? (0) 4. (1) 2. (2) 0. (3) 3. (4) 1.</sub><br>
       <a href="assets/demos/case2-chess-check-turns.mp4">▶️ 观看 MP4</a>
     </td>
     <td width="33%" align="center" valign="top">
