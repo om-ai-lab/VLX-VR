@@ -277,7 +277,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
 
 ## Notebook
 
-见 [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overview.ipynb) — **Coming soon**。
+见 [`notebooks/vlx_vr.ipynb`](notebooks/vlx_vr.ipynb) — **Coming soon**。
 
 ## 开源状态
 

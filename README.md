@@ -277,7 +277,7 @@ Files live under [`assets/demos/`](assets/demos/). Test clips are public-web foo
 
 ## Notebook
 
-See [`notebooks/vlx_vr_minerva_overview.ipynb`](notebooks/vlx_vr_minerva_overview.ipynb) — **Coming soon**.
+See [`notebooks/vlx_vr.ipynb`](notebooks/vlx_vr.ipynb) — **Coming soon**.
 
 ## Open-Source Status
 
