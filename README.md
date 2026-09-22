@@ -258,7 +258,7 @@ Three real side-by-side comparisons of **VLX-VR** and **Gemini 3.1 Pro** on the 
       </a>
       <br>
       <b>Case 3 · Anomaly + timestamps</b><br>
-      <sub>Gym: find out-of-place actions on a basketball court and list second-level timestamps.</sub><br>
+      <sub>看看视频里有哪些和我们日常操作反常的内容，时间点发我下</sub><br>
       <a href="assets/demos/case3-basketball-anomaly.mp4">▶️ Watch MP4</a>
     </td>
   </tr>

@@ -258,7 +258,7 @@ VLX-VR 在阅读、情境感知、时间推理与数值推理上更强；计数�
       </a>
       <br>
       <b>案例 3 · 异常 + 时间点</b><br>
-      <sub>场馆：找出篮球场上反常操作，并按秒列出时间点。</sub><br>
+      <sub>看看视频里有哪些和我们日常操作反常的内容，时间点发我下</sub><br>
       <a href="assets/demos/case3-basketball-anomaly.mp4">▶️ 观看 MP4</a>
     </td>
   </tr>
