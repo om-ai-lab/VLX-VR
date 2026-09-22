@@ -67,7 +67,7 @@ Join the VLX community to connect with developers, explore applications, share f
         <img src="assets/WeChat.png" alt="VLX official WeChat QR code" width="220">
       </td>
       <td align="center">
-        <a href="https://discord.gg/c3BNhbcyd">
+        <a href="https://discord.gg/SEVNjyXPef">
           <img src="assets/Discord.png" alt="VLX Discord community QR code" width="220">
         </a>
       </td>

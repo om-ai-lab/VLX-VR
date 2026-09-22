@@ -67,7 +67,7 @@
         <img src="assets/WeChat.png" alt="VLX 官方微信二维码" width="220">
       </td>
       <td align="center">
-        <a href="https://discord.gg/c3BNhbcyd">
+        <a href="https://discord.gg/SEVNjyXPef">
           <img src="assets/Discord.png" alt="VLX Discord 社区二维码" width="220">
         </a>
       </td>
