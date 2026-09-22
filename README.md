@@ -79,8 +79,7 @@ For technical support, partnerships, and community inquiries, contact us at **[m
 
 ## Updates
 
-- **[2026-09-22]** 🔥 Added three case demos ([assets/demos/](assets/demos/)).
-- **[2026-09-20]** 🔥🔥🔥 GitHub package published: README (EN/ZH), overview assets, and a MINERVA result notebook.
+- **[2026-09-22]** 🔥🔥🔥 GitHub package published: README (EN/ZH), overview assets, and a notebook.
 - **[2026-09]** Paper released: [VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985) (`arXiv:2609.09985`).
 - **[2026-09]** Overview video published: [Watch on YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw).
 
