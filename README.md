@@ -79,6 +79,7 @@ For technical support, partnerships, and community inquiries, contact us at **[m
 
 ## Updates
 
+- **[2026-10-08]** Notebook cookbook published.
 - **[2026-09-22]** 🔥🔥🔥 GitHub package published: README (EN/ZH), overview assets, and a notebook.
 - **[2026-09]** Paper released: [VLX-VR: An Agentic-Aware Video Reasoning Model](https://arxiv.org/abs/2609.09985) (`arXiv:2609.09985`).
 - **[2026-09]** Overview video published: [Watch on YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw).
@@ -277,7 +278,7 @@ Files live under [`assets/demos/`](assets/demos/). Test clips are public-web foo
 
 ## Notebook
 
-See [`notebooks/vlx_vr.ipynb`](notebooks/vlx_vr.ipynb) — **Coming soon**.
+See [`notebooks/vlx_vr.ipynb`](notebooks/vlx_vr.ipynb).
 
 ## Open-Source Status
 
@@ -286,6 +287,7 @@ See [`notebooks/vlx_vr.ipynb`](notebooks/vlx_vr.ipynb) — **Coming soon**.
 | Paper | Released ([arXiv:2609.09985](https://arxiv.org/abs/2609.09985)) |
 | Overview video | Released ([YouTube](https://www.youtube.com/watch?v=paqyRLzPcbw)) |
 | Case demos | Released ([assets/demos/](assets/demos/)) |
+| API cookbook notebook | Released ([notebooks/vlx_vr.ipynb](notebooks/vlx_vr.ipynb)) |
 | README + notebook package | This repository |
 
 ## Why VLX-VR
